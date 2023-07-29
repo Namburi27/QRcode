@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic:wght@700&family=Outfit&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+
+body {
+    font-family:  'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(218, 50%, 83%);
+    font-size: 15px;
+  }
+
+ .container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display:flex;
+  }
+
+  .child {
+    width: 35vh;
+    height: 60vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+  }
+
+img{
+    margin: 15px;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10px;
+  }
+  
+h2{
+  color:hsl(218, 44%, 22%);
+}
+
+p{
+    color:hsl(212, 21%, 76%);
+    margin: 2px;
+}
+
+@media screen and (max-width: 1440px) {
+    .container{
+      font-size: 12px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      display: flex;
+    }
+}
